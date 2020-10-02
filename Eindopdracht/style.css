@@ -1,0 +1,86 @@
+body {
+    background-color: azure;
+    margin: 20px;
+    font-family: ubuntu, Helvetica, sans-serif;
+}
+
+.text-kleur{
+    position: absolute;
+    top: 200px;
+    left: 12%
+}
+
+.icon-hamburger{
+    width: 32px;
+    padding: 8px;
+}
+ 
+button{
+    border-radius: 4px;
+    border: 1px solid #333333;
+    background-color: #ffffff;
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0px;
+    position: absolute;
+    left: -300px;
+    opacity: 0.6;
+}
+
+li {
+    background-color: azure;
+    margin: 2px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+.item-one{
+    background: brown;
+}
+
+.item-two{
+    background-color: orange;
+}
+
+.item-three{
+    background-color: plum;
+}
+
+.item-four{
+    background-color: green;
+}
+
+
+.toggle-menu{
+    position: relative;
+    left: 0px;
+    transition-duration: 1000ms;
+    opacity: 1;
+}
+
+.make-red{
+background-color: brown;
+transition-duration: 500ms;
+}
+
+.make-orange{
+background-color: orange;
+transition-duration: 500ms;
+}
+
+.make-purple{
+background-color: plum;
+transition-duration: 500ms;
+}
+
+.make-green{
+background-color: green;
+transition-duration: 500ms;
+}
